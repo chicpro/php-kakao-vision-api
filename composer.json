@@ -1,0 +1,23 @@
+{
+	"name": "chicpro/php-kakao-vision-api",
+	"description": "PHP Client for Kakao Vision API",
+	"keywords": ["kakao", "vision", "api"],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Seongho Jang",
+			"email": "chicpro@gmail.com",
+			"homepage": "https://ncube.net"
+		}
+	],
+	"require": {
+		"php": ">=5.5.0",
+		"ext-curl": "*"
+	},
+	"autoload": {
+		"psr-4": {
+			"chicpro\\KakaoVision\\": "src/chicpro/KakaoVision/"
+		}
+	},
+	"minimum-stability": "stable"
+}
